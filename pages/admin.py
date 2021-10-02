@@ -6,7 +6,7 @@ from .models import Team
 class TeamAdmin(admin.ModelAdmin):
 
     def thumbnail(self, object):
-        return format_html(f"<img src='{object.photo.url}' width='40' />")
+        return format_html(f"<img src='{object.photo.url}' style='border-radius:50%;' width='40'/>")
 
     thumbnail.short_description = 'Photo'
 

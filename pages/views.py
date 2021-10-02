@@ -4,6 +4,7 @@ from .models import Team
 def home(request):
     team = Team.objects.all()
     context = {
+        'page': 'home',
         'team': team,
     }
     return render(request, 'pages/home.html', context=context)
@@ -11,13 +12,18 @@ def home(request):
 def about(request):
     team = Team.objects.all()
     context = {
+        'page': 'about',
         'team': team,
     }
     return render(request, 'pages/about.html', context=context)
 
 def services(request):
-    return render(request, 'pages/services.html')
+    context = {
+        'page': 'services'
+    }
+    return render(request, 'pages/services.html', context=context)
 
 def contact(request):
-    return render(request, 'pages/contact.html')
+    context = {'page': 'contact'}
+    return render(request, 'pages/contact.html', context=context)
 
