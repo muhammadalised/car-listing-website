@@ -1,5 +1,8 @@
 {% extends 'base.html' %}
 {% load static %}
+
+{% block title %} | Register{% endblock title %}
+
 {% block content %}
 
 <!-- Sub Banner start -->
@@ -67,7 +70,7 @@
                             <li><a href="#" class="google-bg"><i class="fa fa-google google-i"></i><span>Google</span></a></li>
                         </ul>
                     </form>
-                    <p>Already a member? <a href="{% url 'login' %}" class="thembo"> Login here</a></p>
+                    <p>Already a member? <a href="{% url 'login' %}" class="thembo text-danger"> Login here</a></p>
                 </div>
             </div>
         </div>
