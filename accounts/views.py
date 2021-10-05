@@ -1,6 +1,9 @@
 from django.shortcuts import redirect, render
 from django.contrib import messages, auth
 from django.contrib.auth.models import User
+from django.contrib.auth.decorators import login_required
+
+from contacts.models import Contact
 
 def login(request):
     if request.method == 'POST':
@@ -60,5 +63,10 @@ def logout(request):
         return redirect('login')
     return render(request, 'accounts/logout.html')
 
+@login_required(login_url='login')
 def dashboard(request):
-    return render(request, 'accounts/dashboard.html')
+    user_inquiries = Contact.objects.order_by('-create_date').filter(user_id=request.user.id)
+    context = {
+        'inquiries': user_inquiries
+    }
+    return render(request, 'accounts/dashboard.html', context=context)
