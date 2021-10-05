@@ -1,8 +1,13 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
+from django.contrib.auth.models import User
+from django.core.mail import send_mail
+from django.contrib import messages
 
-from cars import models
 from .models import Team
 from cars.models import Car
+
+import os
+
 
 def home(request):
     team = Team.objects.all()
@@ -43,5 +48,29 @@ def services(request):
 
 def contact(request):
     context = {'page': 'contact'}
+    if request.method == 'POST':
+        name = request.POST['name']
+        email = request.POST['email']
+        subject = request.POST['subject']
+        phone = request.POST['phone']
+        message = request.POST['message']
+
+        email_subject = 'You have a new message from Carzone website regarding '+ subject
+        message_body = f'Name: {name}. Email: {email}. Phone: {phone}. Message:{message}.'
+
+        admin_info = User.objects.get(is_superuser=True)
+        admin_email = admin_info.email
+        # Send the email to admin
+        send_mail(
+            email_subject,
+            message_body,
+            os.environ.get('EMAIL_HOST_USER'),
+            [admin_email],
+            fail_silently=False,
+        )
+
+        messages.success(request, 'Thank you for contacting us, we will get back to you shortly')
+        return redirect('contact')
+    
     return render(request, 'pages/contact.html', context=context)
 

@@ -43,6 +43,7 @@ def inquiry(request):
         )
 
         contact.save()
+        
         admin_info = User.objects.get(is_superuser=True)
         admin_email = admin_info.email
         # Send the email to admin
