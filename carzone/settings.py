@@ -153,7 +153,7 @@ MESSAGE_TAGS = {
     messages.ERROR: 'danger',
 }
 
-SITE_ID = 1
+SITE_ID = 3
 
 # Email settings
 EMAIL_HOST = os.environ.get('EMAIL_HOST')
