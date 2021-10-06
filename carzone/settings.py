@@ -26,7 +26,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['car-listing-web.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['.herokuapp.com', 'localhost']
 
 LOGIN_REDIRECT_URL = 'dashboard'
 
@@ -52,7 +52,7 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    #'django.contrib.staticfiles',
+    'django.contrib.staticfiles',
 ]
 
 MIDDLEWARE = [
