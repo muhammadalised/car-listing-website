@@ -1,5 +1,6 @@
 from datetime import datetime
 from django.db import models
+from django.utils import timezone
 from ckeditor.fields import RichTextField
 from multiselectfield import MultiSelectField
 from .utils import state_choice, year_choice, features_choices, door_choices
@@ -32,7 +33,7 @@ class Car(models.Model):
     fuel_type = models.CharField(max_length=50)
     no_of_owners =models.CharField(max_length=100)
     is_featured = models.BooleanField(default=False)
-    created_date = models.DateTimeField(default=datetime.now(), blank=True)
+    created_date = models.DateTimeField(default=timezone.now, blank=True)
 
     def __str__(self):
         return self.car_title
