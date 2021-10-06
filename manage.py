@@ -7,7 +7,7 @@ from dotenv import read_dotenv
 
 def main():
     # Read the environment variables
-    # read_dotenv()
+    read_dotenv()
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'carzone.settings')
     try:
         from django.core.management import execute_from_command_line
