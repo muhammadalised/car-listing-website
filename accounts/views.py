@@ -61,7 +61,6 @@ def logout(request):
         auth.logout(request)
         messages.success(request, 'You are successfully logged out')
         return redirect('login')
-    return render(request, 'accounts/logout.html')
 
 @login_required(login_url='login')
 def dashboard(request):

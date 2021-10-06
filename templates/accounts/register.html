@@ -34,6 +34,7 @@
                     </div>
                     <h3>Create an account</h3>
                     {% include 'partials/_messages.html' %}
+                    {% if not user.is_authenticated %}
                     <form action="{% url 'register' %}" method="POST">
                         {% csrf_token %}
                         <div class="form-group form-box">
@@ -73,6 +74,9 @@
                         </ul>
                     </form>
                     <p>Already a member? <a href="{% url 'login' %}" class="thembo text-danger"> Login here</a></p>
+                    {% else %}
+                        <p class="alert alert-info">You are already logged in and cannot register. Logout from your <strong><a href="{% url 'dashboard' %}" class="text-danger">dashboard</a></strong> first</p>
+                    {% endif %}
                 </div>
             </div>
         </div>
