@@ -1,0 +1,981 @@
+[
+{
+    "model": "pages.team",
+    "pk": 1,
+    "fields": {
+        "first_name": "Martin",
+        "last_name": "Smith",
+        "designation": "Web Developer",
+        "photo": "photos/2021/09/29/avatar-1.jpg",
+        "facebook_link": "https://facebook.com",
+        "twitter_link": "https://twitter.com",
+        "google_plus_link": "https://google-plus.com",
+        "created_date": "2021-09-29T07:27:07.282Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 2,
+    "fields": {
+        "first_name": "Stone",
+        "last_name": "Carolyn",
+        "designation": "Creative Director",
+        "photo": "photos/2021/09/29/avatar-10.jpg",
+        "facebook_link": "https://facebook.com",
+        "twitter_link": "https://twitter.com",
+        "google_plus_link": "https://google-plus.com",
+        "created_date": "2021-09-29T10:09:07.633Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 3,
+    "fields": {
+        "first_name": "Michelle",
+        "last_name": "Nelson",
+        "designation": "Support Manager",
+        "photo": "photos/2021/09/29/avatar-9.jpg",
+        "facebook_link": "https://facebook.com",
+        "twitter_link": "https://twitter.com",
+        "google_plus_link": "https://google-plus.com",
+        "created_date": "2021-09-29T10:09:54.818Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 4,
+    "fields": {
+        "first_name": "Brandon",
+        "last_name": "Miller",
+        "designation": "Manager",
+        "photo": "photos/2021/09/29/avatar-12.jpg",
+        "facebook_link": "https://facebook.com",
+        "twitter_link": "https://twitter.com",
+        "google_plus_link": "https://google-plus.com",
+        "created_date": "2021-09-29T10:10:30.438Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 5,
+    "fields": {
+        "first_name": "John",
+        "last_name": "Schwaber",
+        "designation": "Marketing Manager",
+        "photo": "photos/2021/09/29/avatar-11.jpg",
+        "facebook_link": "https://facebook.com",
+        "twitter_link": "https://twitter.com",
+        "google_plus_link": "https://google-plus.com",
+        "created_date": "2021-09-29T10:12:05.119Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 1,
+    "fields": {
+        "car_title": "2017 Ferrari 488 GTB",
+        "state": "TX",
+        "city": "Houston",
+        "color": "White",
+        "model": "GTB",
+        "year": 2017,
+        "condition": "Used",
+        "price": 75000,
+        "description": "<p>The 488 GTB is powered by a&nbsp;<strong>3,902 cc (3.9 L; 238.1 cu in)</strong>&nbsp;(488 cc per cylinder, thus the name) all-aluminum dry sump unit of the Ferrari F154 V8 engine family. The engine generates a power output of 670 PS (493 kW; 661 hp) at 8,000 rpm and 760 N&sdot;m (561 lb&sdot;ft) of torque at 3,000 rpm</p>",
+        "car_photo": "photos/2021/10/01/1902536891_BmKFZeu.jpg",
+        "car_photo_1": "photos/2021/10/01/1902536917_FF9UOz9.jpg",
+        "car_photo_2": "photos/2021/10/01/1902537043_5ClJkPR.jpg",
+        "car_photo_3": "photos/2021/10/01/1902537077_JugPGEs.jpg",
+        "car_photo_4": "photos/2021/10/01/1902537082_Hd7qD2O.jpg",
+        "features": "Cruise Control,Airbags,Air Conditioning,Power Steering,Wind Deflector,Bluetooth Handset",
+        "body_style": "Sport",
+        "engine": "3.4L Mid-Engine V6",
+        "transmission": "Automatic",
+        "interior": "Grey",
+        "miles": 10000,
+        "doors": "3",
+        "passengers": 2,
+        "vin_no": "SASVA73Q3783",
+        "mileage": 5,
+        "fuel_type": "Petrol",
+        "no_of_owners": "1",
+        "is_featured": true,
+        "created_date": "2021-10-01T00:27:31Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 2,
+    "fields": {
+        "car_title": "2017 Ford Edge",
+        "state": "TX",
+        "city": "Dallas",
+        "color": "Black",
+        "model": "Edge",
+        "year": 2017,
+        "condition": "Used",
+        "price": 25000,
+        "description": "<p>The 2017 Edge comes standard with 18-inch alloy wheels, a&nbsp;<strong>six-speaker audio system</strong>, a 4.2-inch display, a USB port, a rearview camera, MyKey, and Ford&#39;s SYNC system, which features Bluetooth and voice recognition.</p>",
+        "car_photo": "photos/2021/10/01/1901478607_YPitpWV.jpg",
+        "car_photo_1": "photos/2021/10/01/1901478618_IWODMFX.jpg",
+        "car_photo_2": "photos/2021/10/01/1901478646_683YGqN.jpg",
+        "car_photo_3": "photos/2021/10/01/1901478672_Uk4UUbh.jpg",
+        "car_photo_4": "photos/2021/10/01/1901478687_3kQLGEk.jpg",
+        "features": "Cruise Control,Airbags,Air Conditioning,Power Steering,Direct Fuel Injection,Auto Start/Stop",
+        "body_style": "SUV",
+        "engine": "3.4L Mid-Engine V7",
+        "transmission": "Automatic",
+        "interior": "Grey",
+        "miles": 15000,
+        "doors": "5",
+        "passengers": 5,
+        "vin_no": "STE24151351",
+        "mileage": 8,
+        "fuel_type": "Petrol",
+        "no_of_owners": "2",
+        "is_featured": false,
+        "created_date": "2021-10-01T00:27:31Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 3,
+    "fields": {
+        "car_title": "2017 Ford F-250 Super Duty",
+        "state": "NY",
+        "city": "Ohio",
+        "color": "Black",
+        "model": "F-250",
+        "year": 2017,
+        "condition": "Used",
+        "price": 30000,
+        "description": "<p>The 2017 Ford F-250 comes standard with the familiar&nbsp;<strong>6.2-liter gasoline V8</strong>&nbsp;that&#39;s been tweaked to up the output to 385 horsepower and 430 pound-feet of torque. Also available is a revised version of the 6.7-liter turbodiesel V8 that now puts out an impressive 440 hp and a whopping 925 lb-ft of torque.</p>",
+        "car_photo": "photos/2021/10/01/1894300894.jpg",
+        "car_photo_1": "photos/2021/10/01/1894300905.jpg",
+        "car_photo_2": "photos/2021/10/01/1894300920.jpg",
+        "car_photo_3": "photos/2021/10/01/1900155012.jpg",
+        "car_photo_4": "photos/2021/10/01/1900155133.jpg",
+        "features": "Cruise Control,Airbags,Alarm System,Power Steering,Direct Fuel Injection",
+        "body_style": "SUV",
+        "engine": "3.4L Mid-Engine V7",
+        "transmission": "Automatic",
+        "interior": "Grey",
+        "miles": 13000,
+        "doors": "3",
+        "passengers": 2,
+        "vin_no": "HBH3535335",
+        "mileage": 10,
+        "fuel_type": "Diesel",
+        "no_of_owners": "1",
+        "is_featured": true,
+        "created_date": "2021-10-01T00:27:31Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 4,
+    "fields": {
+        "car_title": "2017 Jaguar F-Pace",
+        "state": "TX",
+        "city": "Austin",
+        "color": "Green",
+        "model": "F-Pace",
+        "year": 2017,
+        "condition": "Used",
+        "price": 50000,
+        "description": "<p>The 2017 Jaguar F-Pace comes standard with a&nbsp;<strong>180-horsepower turbodiesel four-cylinder engine</strong>. ... While the base engine&#39;s zero-to-60 time is 8.2 seconds, the 340-horsepower V6 and 380-horsepower V6 accelerate in 5.4 and 5.1 seconds, respectively. All models come with a smooth-shifting eight-speed automatic transmission.</p>",
+        "car_photo": "photos/2021/10/01/1902932503.jpg",
+        "car_photo_1": "photos/2021/10/01/1902932514.jpg",
+        "car_photo_2": "photos/2021/10/01/1902932528.jpg",
+        "car_photo_3": "photos/2021/10/01/1902932542.jpg",
+        "car_photo_4": "",
+        "features": "Cruise Control,Airbags,Air Conditioning,Alarm System,Power Steering,Auto Start/Stop",
+        "body_style": "SUV",
+        "engine": "3.4L Mid-Engine V4",
+        "transmission": "Automatic",
+        "interior": "Black",
+        "miles": 12500,
+        "doors": "5",
+        "passengers": 5,
+        "vin_no": "WFEF663734345",
+        "mileage": 7,
+        "fuel_type": "Petrol",
+        "no_of_owners": "1",
+        "is_featured": true,
+        "created_date": "2021-10-01T00:27:31Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 5,
+    "fields": {
+        "car_title": "2018 Toyota 4Runner",
+        "state": "NM",
+        "city": "Buffalo",
+        "color": "Silver",
+        "model": "4Runner",
+        "year": 2018,
+        "condition": "Used",
+        "price": 35000,
+        "description": "<p>The 2018 Toyota 4Runner is a&nbsp;<strong>midsize SUV</strong>&nbsp;available in six trim levels: SR5, SR5 Premium, TRD Off-Road, TRD Off-Road Premium, TRD Pro and Limited. All share the same 4.0-liter V6 (270 horsepower, 278 pound-feet of torque), five-speed automatic transmission and 5,000-pound tow rating.</p>",
+        "car_photo": "photos/2021/10/02/1893633875.jpg",
+        "car_photo_1": "photos/2021/10/02/1893633879.jpg",
+        "car_photo_2": "photos/2021/10/02/1893633884.jpg",
+        "car_photo_3": "photos/2021/10/02/1896836883.jpg",
+        "car_photo_4": "photos/2021/10/02/1896836887.jpg",
+        "features": "Cruise Control,Airbags,Air Conditioning,Power Steering,Direct Fuel Injection,Wind Deflector",
+        "body_style": "SUV",
+        "engine": "4L Mid-Engine V6",
+        "transmission": "Automatic",
+        "interior": "Black",
+        "miles": 15000,
+        "doors": "5",
+        "passengers": 5,
+        "vin_no": "YTFS32762364GASF",
+        "mileage": 4,
+        "fuel_type": "Petrol",
+        "no_of_owners": "1",
+        "is_featured": false,
+        "created_date": "2021-10-02T22:42:12Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 6,
+    "fields": {
+        "car_title": "2018 Toyota Corolla",
+        "state": "FL",
+        "city": "Miami",
+        "color": "White",
+        "model": "Corolla",
+        "year": 2018,
+        "condition": "Used",
+        "price": 25000,
+        "description": "<p>The 2018 Toyota Corolla is powered by a&nbsp;<strong>1.8-liter I-4</strong>&nbsp;with 132 hp and 128 lb-ft of torque. The engine is paired to a six-speed manual transmission or a CVT. In the Corolla Eco, that engine makes 140 hp and 126 lb-ft but it only comes with the CVT.</p>",
+        "car_photo": "photos/2021/10/02/1900893299.jpg",
+        "car_photo_1": "photos/2021/10/02/1900893311.jpg",
+        "car_photo_2": "photos/2021/10/02/1900893319.jpg",
+        "car_photo_3": "photos/2021/10/02/1900893329.jpg",
+        "car_photo_4": "photos/2021/10/02/1900893391.jpg",
+        "features": "Airbags,Air Conditioning,Alarm System,Reversing Camera,Direct Fuel Injection,Wind Deflector",
+        "body_style": "Sedan",
+        "engine": "1.8-liter I-4",
+        "transmission": "Manual",
+        "interior": "Grey",
+        "miles": 7500,
+        "doors": "5",
+        "passengers": 5,
+        "vin_no": "CAED3525325EFC",
+        "mileage": 5,
+        "fuel_type": "Petrol",
+        "no_of_owners": "1",
+        "is_featured": true,
+        "created_date": "2021-10-02T22:42:12Z"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 1,
+    "fields": {
+        "first_name": "Muhammad ",
+        "last_name": "Ali",
+        "car_id": 4,
+        "customer_inquiry": "I'd like to know your best price for this",
+        "car_title": "2017 Jaguar F-Pace",
+        "city": "Rawalpindi",
+        "state": "Punjab",
+        "email": "ali@testing.com",
+        "phone": "090078601",
+        "message": "I need more info man",
+        "user_id": 0,
+        "create_date": "2021-10-05T16:11:02.146Z"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 3,
+    "fields": {
+        "first_name": "M.",
+        "last_name": "Ali",
+        "car_id": 1,
+        "customer_inquiry": "I'd like to test drive this",
+        "car_title": "2017 Ferrari 488 GTB",
+        "city": "Houston",
+        "state": "TX",
+        "email": "ali@thecarguy.com",
+        "phone": "12414142",
+        "message": "I need more info.",
+        "user_id": 4,
+        "create_date": "2021-10-05T16:13:56.066Z"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 4,
+    "fields": {
+        "first_name": "M.",
+        "last_name": "Ali",
+        "car_id": 1,
+        "customer_inquiry": "I'm interested in this",
+        "car_title": "2017 Ferrari 488 GTB",
+        "city": "Lexington",
+        "state": "MA",
+        "email": "admin@carzone.co",
+        "phone": "",
+        "message": "",
+        "user_id": 1,
+        "create_date": "2021-10-05T19:44:07.777Z"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 5,
+    "fields": {
+        "first_name": "M.",
+        "last_name": "Ali",
+        "car_id": 5,
+        "customer_inquiry": "I'm interested in this",
+        "car_title": "2018 Toyota 4Runner",
+        "city": "Salem",
+        "state": "MA",
+        "email": "admin@carzone.co",
+        "phone": "",
+        "message": "",
+        "user_id": 1,
+        "create_date": "2021-10-05T19:47:59.460Z"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 6,
+    "fields": {
+        "first_name": "M",
+        "last_name": "Ali",
+        "car_id": 6,
+        "customer_inquiry": "I'm interested in this",
+        "car_title": "2018 Toyota Corolla",
+        "city": "Norwood",
+        "state": "MA",
+        "email": "ali@testing.com",
+        "phone": "",
+        "message": "I need some info about this car.",
+        "user_id": 4,
+        "create_date": "2021-10-05T20:12:32.898Z"
+    }
+},
+{
+    "model": "sites.site",
+    "fields": {
+        "domain": "localhost:8000",
+        "name": "localhost:8000"
+    }
+},
+{
+    "model": "socialaccount.socialapp",
+    "pk": 1,
+    "fields": {
+        "provider": "facebook",
+        "name": "Facebook login",
+        "client_id": "189119516690341",
+        "secret": "86b13cf72b630d9a170d04d5effdee20",
+        "key": "",
+        "sites": [
+            [
+                "localhost:8000"
+            ]
+        ]
+    }
+},
+{
+    "model": "socialaccount.socialapp",
+    "pk": 2,
+    "fields": {
+        "provider": "google",
+        "name": "Google login",
+        "client_id": "864159883778-srjdrheal0ihihf3citp7gv9to0f325f.apps.googleusercontent.com",
+        "secret": "vTzSBJSoCE3mnEPSicsI45mM",
+        "key": "",
+        "sites": [
+            [
+                "localhost:8000"
+            ]
+        ]
+    }
+},
+{
+    "model": "socialaccount.socialtoken",
+    "pk": 1,
+    "fields": {
+        "app": 1,
+        "account": 1,
+        "token": "EAACsANGcx6UBAEDi8ZAl7WINbnaWjz2pHUyKgVOtyZCBzZCXbi4dlMSkbSECggAfZCAS4qzgs3aM7olY0a2iKH60iNaF48y4vpqEoVxUBm0piwVeR8ytHx7B6CqFzKV4984JtlF4HJZBwZCQsM2fYRLh5tpnykN40UadBBds8g6gTQU1yOFZABU5zgr6ZAaAyUrSl19eRRLQ5GsbghUVJmMTdhFJKkm0Vdc1O8uwADhk6IkVKR2VW7jP",
+        "token_secret": "",
+        "expires_at": "2021-12-03T15:17:26.423Z"
+    }
+},
+{
+    "model": "socialaccount.socialtoken",
+    "pk": 2,
+    "fields": {
+        "app": 2,
+        "account": 2,
+        "token": "ya29.a0ARrdaM-TZa5RAnJVKt6PO87GuknAOq-5qgrGZ7gmbNGOyJ7QdBmJ6NRdl3z-me8ZMJ5-cyB2FFDqKPIEEaYBuG84wWSi3F00LIvKzd1mOBCuZjMBiEee0fYqtN0HdhK6fjCFi5DsBcB0IW_RQyZLbwrtHbSy",
+        "token_secret": "",
+        "expires_at": "2021-10-04T16:34:30.778Z"
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$180000$97IfqZm5q8lV$Duuoatrqyjc44hbb9I383q26XHs9huDORrLiFw31JzI=",
+        "last_login": "2021-10-05T14:46:16Z",
+        "is_superuser": true,
+        "username": "carzone-admin",
+        "first_name": "M.",
+        "last_name": "Ali",
+        "email": "artellisys@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2021-09-29T07:11:07Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$180000$Rb0Q9xDXVVXx$PI65HgfhunHc73+3t71GPOcvCjw8F57F7ge8LBLSIIc=",
+        "last_login": "2021-10-06T07:41:50.082Z",
+        "is_superuser": false,
+        "username": "m.ali",
+        "first_name": "M",
+        "last_name": "Ali",
+        "email": "ali@testing.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2021-10-04T11:00:57.064Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "!herjFPSIKH0RDskfaSPqs0ILsTIPFUqlVfM2mM3l",
+        "last_login": "2021-10-04T15:18:29.136Z",
+        "is_superuser": false,
+        "username": "muhammad",
+        "first_name": "Muhammad",
+        "last_name": "Ali",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2021-10-04T15:17:29.589Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "!o3WRZuor4AjgEF7SO3Rjfr1gOOtJ3gDjxYHOuxTQ",
+        "last_login": "2021-10-04T15:34:32.759Z",
+        "is_superuser": false,
+        "username": "muhammad0",
+        "first_name": "Muhammad",
+        "last_name": "Ali",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2021-10-04T15:34:32.721Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "nmym9808t8ks2w3hvf8ii3hrkbjp4hd1",
+    "fields": {
+        "session_data": "ODBjNmZjOGIwOWZmY2ZhZDA1ODgxNGQ0ODkxYTcwNjlkNzNiNjZjYjp7Il9hdXRoX3VzZXJfaWQiOiI0IiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI4YjA2NTEzYmJhNWM1ZDUyNTkwNzAwZDg4MWViNDFkN2RiYTZkMDNmIn0=",
+        "expire_date": "2021-10-20T07:41:50.087Z"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2021-09-29T07:13:07.813Z",
+        "user": [
+            "carzone-admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "1",
+        "object_repr": "carzone-admin",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2021-09-29T07:27:07.286Z",
+        "user": [
+            "carzone-admin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "1",
+        "object_repr": "Team object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2021-09-29T09:52:01.361Z",
+        "user": [
+            "carzone-admin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "1",
+        "object_repr": "Martin Smith",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2021-09-29T10:09:07.636Z",
+        "user": [
+            "carzone-admin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "2",
+        "object_repr": "Stone Carolyn",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2021-09-29T10:09:13.133Z",
+        "user": [
+            "carzone-admin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "1",
+        "object_repr": "Martin Smith",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2021-09-29T10:09:54.820Z",
+        "user": [
+            "carzone-admin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "3",
+        "object_repr": "Michelle Nelson",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2021-09-29T10:10:30.441Z",
+        "user": [
+            "carzone-admin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "4",
+        "object_repr": "Brandon Miller",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2021-09-29T10:12:05.121Z",
+        "user": [
+            "carzone-admin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "5",
+        "object_repr": "John Schwaber",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2021-10-01T17:42:36.459Z",
+        "user": [
+            "carzone-admin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "1",
+        "object_repr": "Car object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2021-10-01T17:46:46.162Z",
+        "user": [
+            "carzone-admin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "2",
+        "object_repr": "Car object (2)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2021-10-01T17:50:45.347Z",
+        "user": [
+            "carzone-admin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "3",
+        "object_repr": "Car object (3)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2021-10-01T17:53:51.345Z",
+        "user": [
+            "carzone-admin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "4",
+        "object_repr": "Car object (4)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2021-10-01T18:02:25.707Z",
+        "user": [
+            "carzone-admin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "3",
+        "object_repr": "2017 Ford F-250 Super Duty",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is featured\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2021-10-02T07:51:06.260Z",
+        "user": [
+            "carzone-admin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "3",
+        "object_repr": "2017 Ford F-250 Super Duty",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is featured\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2021-10-02T10:50:54.961Z",
+        "user": [
+            "carzone-admin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "2",
+        "object_repr": "2017 Ford Edge",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is featured\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2021-10-02T17:54:06.779Z",
+        "user": [
+            "carzone-admin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "5",
+        "object_repr": "2018 Toyota 4Runner",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2021-10-02T18:01:56.780Z",
+        "user": [
+            "carzone-admin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "6",
+        "object_repr": "2018 Toyota Corolla",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2021-10-04T14:56:01.196Z",
+        "user": [
+            "carzone-admin"
+        ],
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "object_id": "1",
+        "object_repr": "Facebook login",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2021-10-04T14:57:18.153Z",
+        "user": [
+            "carzone-admin"
+        ],
+        "content_type": [
+            "sites",
+            "site"
+        ],
+        "object_id": "1",
+        "object_repr": "localhost:8000",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Domain name\", \"Display name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2021-10-04T15:14:33.897Z",
+        "user": [
+            "carzone-admin"
+        ],
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "object_id": "1",
+        "object_repr": "Facebook login",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Client id\", \"Secret key\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2021-10-04T15:16:48.017Z",
+        "user": [
+            "carzone-admin"
+        ],
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "object_id": "1",
+        "object_repr": "Facebook login",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Client id\", \"Key\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2021-10-04T15:16:57.791Z",
+        "user": [
+            "carzone-admin"
+        ],
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "object_id": "1",
+        "object_repr": "Facebook login",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Secret key\", \"Key\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2021-10-04T15:30:49.275Z",
+        "user": [
+            "carzone-admin"
+        ],
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "object_id": "2",
+        "object_repr": "Google login",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2021-10-05T11:14:35.753Z",
+        "user": [
+            "carzone-admin"
+        ],
+        "content_type": [
+            "contacts",
+            "contact"
+        ],
+        "object_id": "2",
+        "object_repr": "ali@testing.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2021-10-05T15:12:19.720Z",
+        "user": [
+            "carzone-admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "1",
+        "object_repr": "carzone-admin",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Email address\"]}}]"
+    }
+},
+{
+    "model": "socialaccount.socialaccount",
+    "pk": 1,
+    "fields": {
+        "user": [
+            "muhammad"
+        ],
+        "provider": "facebook",
+        "uid": "864801981092046",
+        "last_login": "2021-10-04T15:18:29.106Z",
+        "date_joined": "2021-10-04T15:17:29.631Z",
+        "extra_data": "{\"id\": \"864801981092046\", \"name\": \"Muhammad Ali\", \"first_name\": \"Muhammad\", \"last_name\": \"Ali\"}"
+    }
+},
+{
+    "model": "socialaccount.socialaccount",
+    "pk": 2,
+    "fields": {
+        "user": [
+            "muhammad0"
+        ],
+        "provider": "google",
+        "uid": "108875400174803483787",
+        "last_login": "2021-10-04T15:34:32.744Z",
+        "date_joined": "2021-10-04T15:34:32.744Z",
+        "extra_data": "{\"id\": \"108875400174803483787\", \"name\": \"Muhammad Ali\", \"given_name\": \"Muhammad\", \"family_name\": \"Ali\", \"picture\": \"https://lh3.googleusercontent.com/a-/AOh14GjV_q5z6-IJxh2POw4upJ41iyzmrEbCYoA6TCSo=s96-c\", \"locale\": \"en\"}"
+    }
+}
+]
