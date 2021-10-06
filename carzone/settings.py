@@ -26,7 +26,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['car-listing-web.herokuapp.com']
+ALLOWED_HOSTS = ['car-listing-web.herokuapp.com', 'localhost']
 
 LOGIN_REDIRECT_URL = 'dashboard'
 
