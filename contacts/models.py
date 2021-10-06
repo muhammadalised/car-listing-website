@@ -13,7 +13,7 @@ class Contact(models.Model):
     phone = models.CharField(max_length=100)
     message = models.TextField(blank=True)
     user_id = models.IntegerField(blank=True)
-    create_date = models.DateTimeField(blank=True, default=datetime.now)
+    create_date = models.DateTimeField(default=datetime.now(), blank=True)
 
     def __str__(self):
         return self.email
